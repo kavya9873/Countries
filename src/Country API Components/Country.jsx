@@ -30,7 +30,7 @@ export const Country = ({ name, flag, population, region, capital}) => {
                             <b>Region:</b> {region}
                         </p>
                         <p className="pt-1">
-                            <b>Capital:</b>{" "}
+                            <b>Capitals:</b>{" "}
                             {capital
                                 ? Object.values(capital).join("")
                                 : "No Capital"}
