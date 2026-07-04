@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Nunito", sans-serif;
+    /* background-color: hsl(0, 0%, 99%); */
+    color: hsl(200, 15%, 8%);
+}
+
+.dark-theme-bg {
+    background-color: hsl(207, 26%, 17%);
+}
+
+.dark-theme-text {
+    color: hsl(0, 100%, 100%);
+}
+
+.dark-theme-elements {
+    background-color: hsl(209, 23%, 22%);
+}
+
+.dark-theme-elements-text {
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 100%, 100%);
+}
