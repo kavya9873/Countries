@@ -6,7 +6,7 @@ import { Home } from "./Country API Components/Home.jsx"
 import { Error } from "./Country API Components/Error.jsx"
 import { IndividualCountryShow } from "./Country API Components/IndividualCountryShow.jsx"
 // import { IndividualCountryError } from "./Country API Components/IndividualCountryError.jsx"
-import { ThemeProvider } from "./contexts/ThemeContext.jsx" 
+import { ThemeProvider } from "./Contexts/ThemeContext.jsx" 
 
 const router = createBrowserRouter([
     {
