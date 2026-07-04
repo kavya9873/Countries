@@ -4,7 +4,7 @@ import data from "../../data"
 import { IndividualCountry } from "./IndividualCountry"
 import { useParams } from "react-router-dom"
 import { IndividualCountrySkeleton } from "./IndividualCountrySkeleton"
-import ThemeContext from "../contexts/ThemeContext"
+import ThemeContext from "../Contexts/ThemeContext"
 
 export const IndividualCountryShow = () => {
     const [loading, setLoading] = useState(true)

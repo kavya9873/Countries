@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { Link } from "react-router-dom"
 import data from "../../data"
-import ThemeContext from "../contexts/ThemeContext"
+import ThemeContext from "../Contexts/ThemeContext"
 
 export const IndividualCountry = ({
     name,

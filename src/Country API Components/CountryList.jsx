@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react"
 import data from "../../data"
 import { Country } from "./Country"
 import { SkeletonCard } from "./SkeletonCard"
-import ThemeContext from "../contexts/ThemeContext"
+import ThemeContext from "../Contexts/ThemeContext"
 
 export const CountryList = ({ search, selectedRegion }) => {
     const [showSkeleton, setShowSkeleton] = useState(true)

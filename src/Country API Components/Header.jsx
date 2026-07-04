@@ -1,6 +1,6 @@
 import { useContext, useEffect} from "react"
 import { Link } from "react-router-dom"
-import ThemeContext from "../contexts/ThemeContext"
+import ThemeContext from "../Contexts/ThemeContext"
 
 export const Header = () => {
 

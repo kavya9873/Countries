@@ -1,5 +1,3 @@
-import React from "react"
-
 export const SkeletonCard = ({ darkMode }) => {
     return (
         <div className="w-62.5 rounded-lg overflow-hidden shadow-[0px_2px_8px_0px_rgba(99,99,99,0.2)] animate-pulse">
